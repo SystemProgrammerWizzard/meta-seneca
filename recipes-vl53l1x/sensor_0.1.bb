@@ -4,8 +4,9 @@ LICENSE = "CLOSED"
 LIC_FILES_CHKSUM = ""
 SRC_URI = "git://github.com/SystemProgrammerWizzard/sensor-vl53l1x.git;branch=main;protocol=https"
 inherit cmake
+
 SRCREV = "${AUTOREV}"
 
 
-S = "${WORKDIR}"
+S = "${WORKDIR}/git"
 
