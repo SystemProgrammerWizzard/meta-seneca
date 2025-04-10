@@ -6,7 +6,7 @@ DEPENDS = "nlohmann-json gtest spdlog"
 
 inherit cmake
 
-SRC_URI = "git://github.com/SystemProgrammerWizzard/simple-library-TDD.git;branch=main;protocol=https"
+SRC_URI = "git://github.com/SystemProgrammerWizzard/simple-library-TDD.git;branch=devtool;protocol=https"
 SRCREV = "${AUTOREV}"
 
 S = "${WORKDIR}/git"
