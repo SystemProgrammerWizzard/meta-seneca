@@ -14,6 +14,7 @@ DEPENDS =  "nlohmann-json \
             mesa-pvr \
             gtkmm3  \
             cairo \
+            libsdl2 \
             "
 
 
@@ -24,9 +25,9 @@ inherit cmake
 do_configure[depends] += "pkgconfig-native:do_populate_sysroot"
 
 
-SRC_URI = "git://github.com/biaxdev/gui-sample;branch=ac/remove_sdl2;protocol=https"
-
-SRCREV = "8bed6f48690bf1e2035aa712e4a4e817bf2ff559"                    
+SRC_URI = "git://github.com/SystemProgrammerWizzard/gui-sample.git;branch=devtools;protocol=https"
+SRCREV = "${AUTOREV}"
+                  
 
 S = "${WORKDIR}/git"
 
