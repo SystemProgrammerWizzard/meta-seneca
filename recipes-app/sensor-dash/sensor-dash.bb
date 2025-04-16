@@ -25,7 +25,7 @@ inherit cmake
 do_configure[depends] += "pkgconfig-native:do_populate_sysroot"
 
 
-SRC_URI = "git://github.com/SystemProgrammerWizzard/gui-sample.git;branch=devtools;protocol=https"
+SRC_URI = "git://github.com/SystemProgrammerWizzard/gui-sample.git;branch=devtool;protocol=https"
 SRCREV = "${AUTOREV}"
                   
 
