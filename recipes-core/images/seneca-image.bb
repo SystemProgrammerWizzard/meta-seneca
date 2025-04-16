@@ -29,6 +29,7 @@ IMAGE_INSTALL:append = " \
     wayland \
     mesa \
     sensor-dash \
+    sensor \
 "
 
 IMAGE_FEATURES:append = " \
